@@ -1,0 +1,252 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Office Supplies</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="./js/gallery.js"></script>
+  <script src="./js/Extender.js"></script>
+  <script src="./js/cart.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    <div class="e-header">
+            <div class="row">
+                <div class="col-2 mobileMenu">
+                    <div class="Hamburger"><i class="fas fa-bars fa-2x"></i></div>
+                </div>
+                <div class="col-8 col-md-4">
+                        <div class="u-logo"></div>
+                </div>
+                <div class="col-md-4 searchM">
+                    <div class="search">
+                        <input type="search">
+                        <div class="Button cartButton"><i class="fas fa-search"></i></i></div>
+                    </div>
+                </div>
+                <div class="col-2 col-md-4">
+                    <div class="e-cart">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="i-cart"><i class="fas fa-shopping-cart fa-2x"></i></div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cart-info">
+                                    <div class="quantity"><input type="text" id="p-quantity" value="0">st </div>
+                                    <div class="sumprice"><input type="text" id="p-sumprice" value="0">KR</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="Button checkout">
+                                    Checkout
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    <div class="e-nav">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="navLink">
+                    <a href="#">All our products</a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="navLink">
+                    <a href="#">Inspiration for the office</a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="navLink">
+                    <a href="#">About OS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="e-mainPage">
+        <div class="row">
+            <div class="col-md-2 e-leftMenuMobile">
+                <div class="e-LeftMenu">
+                <ul>
+                    <li>Paper clips</li>
+                    <li>Post-it notes</li>
+                    <li>Staples</li>
+                    <li>Hole punches</li>
+                    <li>Binders</li>
+                    <li>Staplers</li>
+                    <li>Laminators</li>
+                    <li>Writing utensils</li>
+                    <li>Paper</li>
+                    <li>Computers</li>
+                    <li>Printers</li>
+                    <li>Fax machines</li>
+                    <li>Photocopiers</li>
+                    <li>Cash registers</li>
+                    <li>Office furniture</li>
+                    <li>>Chairs</li>
+                    <li>Cubicles</li>
+                    <li>Filing cabinet</li>
+                    <li>Armoire desks</li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-12 col-md-10">
+                <div class="e-content">
+                <div class="row">
+                    <div class="e-Item">
+                        <div class="row">
+                            <div class="col-12 col-md-3">
+                                <div class="e-gallery">
+                                    <div class="row">
+                                        <div class="i-bigimage col-12">
+                                            <img src="images/paper1.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="i-smallimg col-4 col-md-4">
+                                            <img src="images/paper1.jpg">
+                                        </div>
+                                        <div class="i-smallimg col-4 col-md-4">
+                                            <img src="images/paper2.jpg">
+                                        </div>
+                                        <div class="i-smallimg col-4 col-md-4">
+                                            <img src="images/paper3.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-9 order-first-m">
+                                <div class="e-description">
+                                    <div class="row">
+                                        <h1 class="p-productname">Paper</h1>
+                                    </div>
+                                    <div class="row">
+                                        <div class="e-cartExtension col-12 col-md-12">
+                                            <div class="row">
+                                                <div class="col-6 col-md-3">
+                                                    <h2 class="p-itemPrice">565,00 Kr</h2>
+                                                    <small class="oldPrice">670 Kr</small>
+                                                </h2>
+                                            </div>
+                                                <div class=" col-6 col-md-7">
+                                                    <div class="options">
+                                                        <select class="itemOptions">
+                                                            <option value="white">White</option>
+                                                            <option value="black">Black</option>
+                                                            <option value="multi">Multi-Colored</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-2">
+                                                    <div class="b-AddToCart">
+                                                    <div class="Button cart " onclick="addtocart(), addtocartquantity()" ><i class="fas fa-shopping-cart"></i></div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="e-Extender">
+                                        <div class="p-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.    
+                                        </div>
+                                        <div class="button" value="Extend">Extend</div>
+                                        <div class="button2" value="Hide">Hide</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="e-bottomContent">
+                        <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="e-card">
+                            <h3 class="p-cardTitle">Paper is Awesome</h3>
+                            <p class="p-cardDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="e-card">
+                            <h3 class="p-cardTitle">Paper is Awesome</h3>
+                            <p class="p-cardDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="e-card">
+                            <h3 class="p-cardTitle">Paper is Awesome</h3>
+                            <p class="p-cardDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet la.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                    <div class="u-logo"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <p class="p-FooterDescription">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
+                </p>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="e-Bestsellers">
+                    <h5>Bestsellers</h5>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <ul>
+                                <li><a href="#">A4</a></li>
+                                <li><a href="#">A5</a></li>
+                                <li><a href="#">Pens</a></li>
+                                <li><a href="#">Staplers</a></li>
+                            </ul>
+                    </div>
+                        <div class="col-12 col-md-6">
+                            <ul>
+                                <li><a href="#">A4</a></li>
+                                <li><a href="#">A5</a></li>
+                                <li><a href="#">Pens</a></li>
+                                <li><a href="#">Staplers</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="e-SocialBar">
+                    <h5>We,re Social</h5>
+                    <ul>
+                        <li><a href="#"><p>Facebook</p><i class="fab fa-facebook-f"></i></i></a></li>
+                        <li><a href="#"><p>Twitter</p><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"></i><p>Linkedin</p><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
