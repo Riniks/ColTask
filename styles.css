@@ -140,6 +140,10 @@ body{
   
   /* Main Content */
   
+  .e-Item {
+      width: 100%;
+  }
+
   .button::before, .button2::before {content:"";background-color: #cfcfcf;width: calc( 50% - 30px );height: 1px;left: 0;position: absolute;top: 10px;}
   .button::after, .button2::after {content:"";background-color: #cfcfcf;width: calc( 50% - 30px );height: 1px;right: 0;position: absolute;top: 10px;}
   
